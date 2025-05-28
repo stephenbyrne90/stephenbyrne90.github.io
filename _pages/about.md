@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I'm Stephen Byrne, an economist interested in macroprudential policy, monetary transmission, and financial intermediation.
+I am a senior economist at the Central Bank of Ireland. My primary role is the production of macroeconomic forecasts. I also conduct research in macroeconomics, productivity and misallocation. I hold a Ph.D in Economics from Trinity College Dublin. 
 
-This site hosts my research, CV, and other work. Please have a look around — and feel free to get in touch!
+**Disclaimer**: 
+The views expressed are my own and do not necessarily represent the views of the Central Bank of Ireland.
