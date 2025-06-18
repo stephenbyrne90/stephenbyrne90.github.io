@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Senior Economist at the Central Bank of Ireland. My primary role is the production of macroeconomic forecasts. I also conduct research in macroeconomics, productivity and misallocation. I hold a Ph.D in Economics from Trinity College Dublin. 
+I am a Senior Economist in the Irish Economic Analysis Division of the Central Bank of Ireland. My primary role is the production of macroeconomic forecasts. I also conduct research in macroeconomics, productivity and misallocation. I hold a Ph.D in Economics from Trinity College Dublin. 
 
 **Disclaimer**: 
-The views expressed are my own and do not necessarily represent the views of the Central Bank of Ireland.
+The views expressed are my own and do not necessarily represent the views of the Central Bank of Ireland or the Eurosystem.
