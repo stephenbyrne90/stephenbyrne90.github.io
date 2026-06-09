@@ -1,6 +1,10 @@
 ---
 layout: single
-title: "Interactive Dashboard"
+title: "Dashboard"
 permalink: /dashboard/
-redirect_to: "https://stephenbyrne-econ.shinyapps.io/irish-trade-monitor/"
+author_profile: true
 ---
+
+This dashboard opens in a separate tab.
+
+[Open dashboard](https://stephenbyrne-econ.shinyapps.io/irish-trade-monitor/)
