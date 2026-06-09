@@ -9,4 +9,4 @@ main:
     url: /cv/
 
   - title: "Dashboard"
-    url: /dashboard/
+    url: /shiny/
