@@ -22,6 +22,9 @@ main:
     
   - title: "CV"
     url: /cv/
+
+     - title: "Irish Trade Monitor"
+  url: /dashboard/
     
  # - title: "Guide"
   #  url: /markdown/
