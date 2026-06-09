@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Dashboard"
+title: "Irish Trade Monitor"
 permalink: /dashboard/
 author_profile: true
 ---
 
-This dashboard opens in a separate tab.
+The Irish Trade Monitor allows users to easily view, plot and interrogate detailed product level merchandise trade data for Ireland. 
 
 [Open dashboard](https://stephenbyrne-econ.shinyapps.io/irish-trade-monitor/)
