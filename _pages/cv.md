@@ -14,7 +14,7 @@ author_profile: true
 - **B.A. Economics and English**, University of Limerick, 2013
 
 # Employment
-
+- **Senior Economist**, Department of Finance (on Secondment), 2026–present
 - **Senior Economist**, Central Bank of Ireland, 2018–present
 - **Economist**, Central Bank of Ireland, 2016–2018
 - **Associate Economist**, Central Bank of Ireland, 2014–2016
