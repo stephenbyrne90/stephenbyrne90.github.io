@@ -1,33 +1,63 @@
 ---
+
 layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
-  - /resume
+
+* /resume
+
 ---
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+# Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Ph.D. Economics**, Trinity College Dublin, 2024
+* **M.Sc. Economics**, University of Sussex, 2014
+* **B.A. Economics and English**, University of Limerick, 2013
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+# Employment
 
-* Summer 2015: Research Assistant
+* **Senior Economist**, Central Bank of Ireland, 2018–present
+* **Economist**, Central Bank of Ireland, 2016–2018
+* **Associate Economist**, Central Bank of Ireland, 2014–2016
+* **Research Assistant**, University of Sussex, 2013–2014
+
+# Research Interests
+
+* Macroeconomics
+* Monetary policy transmission
+* Macroprudential policy
+* Non-bank financial intermediation
+* Productivity and resource misallocation
+* Labour markets
+* Multinational enterprises
+
+# Professional Activities
+
+* Chair, ECB Expert Group on Multinational Activities
+* Member, ECB Working Group on Forecasting
+* Member, CSO Macroeconomic Statistics Liaison Group
+* Member, CSO Productivity Statistics Liaison Group
+
+# Selected Conference and Seminar Presentations
+
+* Maynooth University Seminar Series, 2026
+* Trinity College Dublin Economics Seminar Series, 2025
+* Irish Economics Association Conference, 2024, 2025
+* Irving Fisher Committee on Central Bank Statistics, Banco de España, 2024
+* European Economics Association Conference, 2019
+* Society for Computational Economics, 2018
+
+# Programming
+
+* R
+* MATLAB
+* Stata
+* SQL
+* EViews
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
