@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Senior Economist in the Economics Division of the Department of Finance where I work work on research and macroeconomic modelling. I'm currently on secondment from the Irish Economic Analysis Division of the Central Bank of Ireland where my primary role was the production of macroeconomic forecasts. My primary research areas are in empirical macroeconomics, productivity and misallocation. I hold a Ph.D in Economics from Trinity College Dublin.  
+I am a Senior Economist in the Economics Division of the Department of Finance, working on research and macroeconomic modelling. I am currently on secondment from the Irish Economic Analysis Division of the Central Bank of Ireland, where I worked on macroeconomic forecasting, policy analysis, and applied research. My research is in empirical macroeconomics, with a particular focus on productivity, misallocation, and macro-financial linkages. I hold a PhD in Economics from Trinity College Dublin.
 
 **Disclaimer**: 
 The views expressed are my own and do not necessarily represent the views of the Minister for Finance, the Central Bank of Ireland or the Eurosystem.
