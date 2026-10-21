@@ -1,7 +1,8 @@
 ---
 title: "Intangible assets of multinational enterprises in Ireland and their impact on euro area GDP"
 collection: publications
-category: manuscripts
+category: policy-research
+authors: "Malin Andersson, Stephen Byrne, Lorenz Emter, Belén González Pardo, Valerie Jarvis and Nico Zorell"
 permalink: /publication/intangible-assets-mnes-ireland-euro-area-gdp
 date: 2023-03-01
 venue: "Economic Bulletin Boxes, European Central Bank, vol. 3"

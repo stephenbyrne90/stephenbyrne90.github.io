@@ -1,7 +1,8 @@
 ---
 title: "Intangible assets of multinational enterprises in Ireland and their impact on euro area activity"
 collection: publications
-category: manuscripts
+category: policy-research
+authors: "Malin Andersson, Nina Blatnik, Stephen Byrne, Lorenz Emter, Valerie Jarvis, Belén González Pardo, Martin Schmitz, Nico Zorell and Christoph Zwick"
 permalink: /publication/intangible-assets-mnes-ireland-euro-area-activity-ifc
 date: 2024-01-02
 venue: "IFC Bulletins chapters, in External statistics in a fragmented and uncertain world, vol. 62, Bank for International Settlements"

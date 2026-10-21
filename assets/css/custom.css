@@ -1,3 +1,28 @@
+/* Keep the original academic theme, with a more readable research list. */
 .author__avatar img {
   border-radius: 0 !important;
+}
+.research-entry {
+  margin: 0 0 1.45rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+.research-entry h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.05em;
+  line-height: 1.4;
+}
+.research-entry p {
+  margin: 0.2rem 0;
+}
+.research-entry__authors,
+.research-entry__venue,
+.research-entry__summary {
+  line-height: 1.55;
+}
+.research-entry__venue {
+  color: #555;
+}
+.research-entry__link {
+  margin-top: 0.35rem !important;
 }

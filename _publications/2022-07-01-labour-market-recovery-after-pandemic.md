@@ -1,7 +1,8 @@
 ---
 title: "Labour market recovery after a pandemic"
 collection: publications
-category: manuscripts
+category: policy-research
+authors: "Laura Boyd, Stephen Byrne, Enda Keenan and Tara McIndoe-Calder"
 permalink: /publication/labour-market-recovery-after-pandemic
 date: 2022-07-01
 venue: "Quarterly Bulletin Articles, Central Bank of Ireland, pages 89–129"

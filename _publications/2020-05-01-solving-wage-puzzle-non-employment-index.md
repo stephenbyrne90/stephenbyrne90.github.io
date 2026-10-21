@@ -1,7 +1,8 @@
 ---
 title: "Solving the Wage Puzzle: Does the \“Non-Employment Index\” Explain European Wage Dynamics Since the Global Financial Crisis?"
 collection: publications
-category: manuscripts
+category: working-papers
+authors: "Stephen Byrne and Shayan Zakipour-Saber"
 permalink: /publication/solving-wage-puzzle-non-employment-index
 date: 2020-05-01
 venue: "Research Technical Papers 05/RT/20, Central Bank of Ireland"

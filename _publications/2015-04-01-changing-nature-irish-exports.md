@@ -1,7 +1,8 @@
 ---
 title: "The Changing Nature of Irish Exports: Context, Causes and Consequences"
 collection: publications
-category: manuscripts
+category: policy-research
+authors: "Stephen Byrne and Martin O’Brien"
 permalink: /publication/changing-nature-irish-exports
 date: 2015-04-01
 venue: "Quarterly Bulletin Articles, Central Bank of Ireland, pages 58–72"

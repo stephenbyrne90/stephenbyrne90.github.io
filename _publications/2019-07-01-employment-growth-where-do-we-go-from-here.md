@@ -1,7 +1,8 @@
 ---
 title: "Employment Growth: Where Do We Go From Here?"
 collection: publications
-category: manuscripts
+category: policy-research
+authors: "Stephen Byrne and Tara McIndoe-Calder"
 permalink: /publication/employment-growth-where-do-we-go-from-here
 date: 2019-07-01
 venue: "Quarterly Bulletin Articles, Central Bank of Ireland, pages 122–148"

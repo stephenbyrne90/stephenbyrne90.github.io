@@ -1,12 +1,13 @@
 ---
 title: "The Sources of Capital Misallocation in Europe"
 collection: publications
-category: manuscripts
+category: working-papers
+authors: "Stephen Byrne and Robert Goodhead"
 permalink: /publication/sources-of-capital-misallocation-europe
 date: 2025-09-09
 venue: "Central Bank of Ireland Research Technical Paper No. 11/RT/25"
 paperurl: "https://www.centralbank.ie/docs/default-source/publications/research-technical-papers/the-sources-of-capital-misallocation-in-europe.pdf"
-citation: 'Byrne, Stephen and Goodhead, Ryan (2025). "The Sources of Capital Misallocation in Europe." Central Bank of Ireland Research Technical Paper No. 11/RT/25.'
+citation: 'Byrne, Stephen and Goodhead, Robert (2025). "The Sources of Capital Misallocation in Europe." Central Bank of Ireland Research Technical Paper No. 11/RT/25.'
 excerpt: 'A decomposition of the sources of capital misallocation across 19 European countries using firm-level data.'
 ---
 

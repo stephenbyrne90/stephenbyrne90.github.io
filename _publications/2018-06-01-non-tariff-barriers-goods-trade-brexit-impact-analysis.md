@@ -1,7 +1,8 @@
 ---
 title: "Non-Tariff Barriers and Goods Trade: a Brexit Impact Analysis"
 collection: publications
-category: manuscripts
+category: working-papers
+authors: "Stephen Byrne and Jonathan Rice"
 permalink: /publication/non-tariff-barriers-goods-trade-brexit-impact-analysis
 date: 2018-06-01
 venue: "Research Technical Papers 6/RT/18, Central Bank of Ireland"
