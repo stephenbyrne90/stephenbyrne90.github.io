@@ -1,7 +1,8 @@
 ---
 title: "A review of economic analyses on the potential impact of Brexit"
 collection: publications
-category: manuscripts
+category: policy-research
+authors: "Pilar L’Hotellerie-Fallois, Filippo Vergara Caffarelli, Hans Geeroms, Ana M. de Almeida, Patrick Bisciari, Stephen Byrne, Rodolfo Campos, Thomas Conefrey, Rita Cappariello and Milan Damjanović"
 permalink: /publication/review-economic-analyses-potential-impact-brexit
 date: 2020-01-01
 venue: "Occasional Paper Series 249, European Central Bank"

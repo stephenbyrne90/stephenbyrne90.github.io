@@ -1,7 +1,8 @@
 ---
 title: "Inflation Forecasting at the Central Bank of Ireland"
 collection: publications
-category: manuscripts
+category: policy-research
+authors: "Stephen Byrne, Paraic O’Gorman, John Scally and Zivile Zekaite"
 permalink: /publication/inflation-forecasting-central-bank-ireland
 date: 2024-06-01
 venue: "Quarterly Bulletin Articles, Central Bank of Ireland, pages 71–107"

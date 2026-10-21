@@ -1,36 +1,32 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research and publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>Working papers, journal articles and policy research. A further bibliographic record is available on <a href="https://ideas.repec.org/e/pby23.html">IDEAS/RePEc</a>.</p>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+{% assign sections = "working-papers|Working papers,journal-articles|Journal articles,policy-research|Policy research and reports" | split: "," %}
+{% for section in sections %}
+  {% assign parts = section | split: "|" %}
+  <h2>{{ parts[1] }}</h2>
+  {% for post in sorted_publications %}
+    {% if post.category == parts[0] %}
+      <article class="research-entry">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+        {% if post.authors %}<p class="research-entry__authors">{{ post.authors | escape }}</p>{% endif %}
+        <p class="research-entry__venue"><em>{{ post.venue | escape }}</em> ({{ post.date | date: "%Y" }})</p>
+        {% if post.excerpt %}<p class="research-entry__summary">{{ post.excerpt | escape }}</p>{% endif %}
+        {% if post.paperurl %}
+          <p class="research-entry__link">
+            <a href="{{ post.paperurl }}">
+              {% if post.paperurl contains ".pdf" %}Paper (PDF){% else %}Publication record{% endif %}
+            </a>
+          </p>
+        {% endif %}
+      </article>
+    {% endif %}
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+{% endfor %}

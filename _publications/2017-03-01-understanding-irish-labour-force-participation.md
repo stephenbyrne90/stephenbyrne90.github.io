@@ -1,7 +1,8 @@
 ---
 title: "Understanding Irish Labour Force Participation"
 collection: publications
-category: manuscripts
+category: journal-articles
+authors: "Stephen Byrne and Martin D. O’Brien"
 permalink: /publication/understanding-irish-labour-force-participation
 date: 2017-03-01
 venue: "The Economic and Social Review, vol. 48(1), pages 27–60"
