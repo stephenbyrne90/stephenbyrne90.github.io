@@ -1,11 +1,14 @@
 ---
-layout: archive
-title: "CV"
+layout: modern
+title: "Curriculum vitae"
+eyebrow: "Background / Experience"
 permalink: /cv/
-author_profile: true
+author_profile: false
 ---
 
-# Employment
+An economist working across research, forecasting and economic policymaking, with experience in central banking and government.
+
+## Employment
 
 - **Senior Economist**, Department of Finance, Ireland (secondment), 2026–present
 - **Senior Economist**, Central Bank of Ireland, 2018–present (on secondment since 2026)
@@ -13,28 +16,28 @@ author_profile: true
 - **Associate Economist**, Central Bank of Ireland, 2014–2016
 - **Research Assistant**, University of Sussex, 2013–2014
 
-# Education
+## Education
 
 - **PhD in Economics**, Trinity College Dublin, 2025
 - **MSc in Economics**, University of Sussex, 2014
 - **BA in Economics and English**, University of Limerick, 2013
 
-# Research interests
+## Research interests
 
-- Applied macroeconomics and macroeconomic forecasting
-- Monetary and financial economics, including macroprudential policy and non-bank financial intermediation
+- Empirical macroeconomics and macroeconomic forecasting
+- Monetary and financial economics, including macroprudential policy
 - Productivity and resource misallocation
 - Labour markets
 
-# Professional activities
+## Professional activities
 
 - Former co-chair, ECB Expert Group on Multinational Activities
 - Member, ECB Working Group on Forecasting
 - Member, CSO Macroeconomic Statistics Liaison Group
 - Member, CSO Productivity Statistics Liaison Group
 
-# Programming
+## Programming
 
 R · MATLAB · Stata · SQL
 
-For research outputs, see [Publications](/publications/).
+See also [Research and publications](/publications/).
