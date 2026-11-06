@@ -1,25 +1,14 @@
-{% include base_path %}
-
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-    {% endif %}
-    {% if site.atom_feed.hide != true %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endif %}
-  </ul>
-</div>
-{% endif %}
-
-<div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated {{ "now" | date: '%Y-%m-%d' %}}
+<div class="new-footer">
+  <div class="new-footer__top">
+    <a class="new-footer__name" href="{{ '/' | relative_url }}">Stephen Byrne<span>.</span></a>
+    <div class="new-footer__links">
+      <a href="{{ '/publications/' | relative_url }}">Research</a>
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
+      <a href="{{ '/dashboard/' | relative_url }}">Trade Monitor</a>
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+    </div>
+  </div>
+  <p class="new-footer__fine">The views expressed here are my own and do not necessarily represent those of the Minister for Finance, the Central Bank of Ireland or the Eurosystem.</p>
+  <p class="new-footer__copyright">&copy; {{ site.time | date: '%Y' }} Stephen Byrne. Research and policy economics.</p>
 </div>

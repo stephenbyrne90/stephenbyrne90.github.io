@@ -1,0 +1,112 @@
+---
+layout: default
+permalink: /
+title: "Stephen Byrne — Economist"
+excerpt: "Empirical macroeconomics, research and economic policy."
+redirect_from:
+  - /about/
+  - /about.html
+---
+<main id="main-content" class="new-home" role="main">
+  <section class="hero">
+    <div class="wide">
+      <div class="hero__grid">
+        <div class="hero__text">
+          <div class="section-label section-label--light"><span class="label-line"></span>Empirical macroeconomics · Ireland</div>
+          <h1 class="hero__title">Stephen<br><em>Byrne.</em></h1>
+          <p class="hero__statement">Research on the forces shaping the economy — and what they mean for policy.</p>
+          <p class="hero__bio">Senior Economist at Ireland’s Department of Finance, on secondment from the Central Bank of Ireland. PhD in Economics, Trinity College Dublin.</p>
+          <div class="hero__actions">
+            <a class="button-link button-link--light" href="{{ '/publications/' | relative_url }}">Explore research <span aria-hidden="true">↗</span></a>
+            <a class="text-link text-link--light" href="{{ '/cv/' | relative_url }}">View CV <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero__portrait-wrap">
+          <div class="hero__portrait-backdrop" aria-hidden="true"></div>
+          <img src="{{ '/images/SB_12.jpeg' | relative_url }}" class="hero__portrait" alt="Portrait of Stephen Byrne" width="460" height="545">
+          <div class="hero__portrait-caption"><span>RESEARCH</span><span>MACROECONOMICS</span><span>POLICY</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-strip" aria-label="Research focus">
+    <div class="wide about-strip__inner">
+      <div class="about-strip__head">Areas of work <span class="line-short"></span></div>
+      <div class="about-strip__fields"><span>Macroeconomic modelling</span><span>Productivity &amp; misallocation</span><span>Macro-financial linkages</span><span>Labour markets</span></div>
+    </div>
+  </section>
+
+  <section class="featured section-pad" id="research">
+    <div class="wide">
+      <div class="section-heading">
+        <div>
+          <div class="section-label"><span class="label-line"></span>01 / Research</div>
+          <h2>Selected <em>work.</em></h2>
+        </div>
+        <a class="text-link" href="{{ '/publications/' | relative_url }}">All research <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="paper-grid">
+        <article class="paper-tile paper-tile--primary">
+          <div class="paper-tile__top"><span>Working paper</span><span>2025</span></div>
+          <div class="paper-tile__number" aria-hidden="true">01</div>
+          <h3><a href="{{ '/publication/sources-of-capital-misallocation-europe' | relative_url }}">The Sources of Capital Misallocation in Europe</a></h3>
+          <p class="paper-tile__byline">With Robert Goodhead</p>
+          <p class="paper-tile__description">A firm-level decomposition across 19 European countries, isolating persistent distortions, adjustment frictions and transitory factors.</p>
+          <a class="paper-tile__link" href="https://www.centralbank.ie/docs/default-source/publications/research-technical-papers/the-sources-of-capital-misallocation-in-europe.pdf">Read paper <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="paper-tile">
+          <div class="paper-tile__top"><span>Policy research</span><span>2025</span></div>
+          <div class="paper-tile__number" aria-hidden="true">02</div>
+          <h3><a href="{{ '/publication/evolution-of-household-savings' | relative_url }}">The evolution of household savings</a></h3>
+          <p class="paper-tile__byline">With Laura Boyd and Tara McIndoe Calder</p>
+          <p class="paper-tile__description">Why Irish households are saving more, and what demographic and housing constraints imply for the future.</p>
+          <a class="paper-tile__link" href="https://www.centralbank.ie/docs/default-source/publications/quarterly-bulletins/quarterly-bulletin-signed-articles/the-evolution-of-household-savings-determinants-and-implications.pdf">Read paper <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="paper-tile">
+          <div class="paper-tile__top"><span>ECB occasional paper</span><span>2024</span></div>
+          <div class="paper-tile__number" aria-hidden="true">03</div>
+          <h3><a href="{{ '/publication/intangible-assets-mnes-ireland-euro-area-activity' | relative_url }}">Multinational intangibles and euro area activity</a></h3>
+          <p class="paper-tile__byline">With colleagues from the Eurosystem</p>
+          <p class="paper-tile__description">How the location of multinational intangible assets shapes measured investment, output and trade.</p>
+          <a class="paper-tile__link" href="https://ideas.repec.org/p/ecb/ecbops/2024350.html">Publication record <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="latest section-pad">
+    <div class="wide latest__grid">
+      <div class="latest__intro">
+        <div class="section-label"><span class="label-line"></span>02 / Current &amp; recent</div>
+        <h2>From the <em>desk.</em></h2>
+        <p>Selected research releases and coverage, rather than a running commentary.</p>
+      </div>
+      <div class="latest__list">
+        {% for item in site.data.updates limit:3 %}
+        <article class="latest__item">
+          <div class="latest__date">{{ item.date }}</div>
+          <div class="latest__body">
+            <span class="latest__type">{{ item.type }}</span>
+            <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+            <p>{{ item.description }}</p>
+          </div>
+          <a class="latest__arrow" href="{{ item.url }}" aria-label="Read {{ item.title | escape }}">↗</a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="tool-feature section-pad">
+    <div class="wide tool-feature__inner">
+      <div>
+        <div class="section-label section-label--light"><span class="label-line"></span>03 / Research tools</div>
+        <h2>Irish Trade <em>Monitor.</em></h2>
+        <p>Explore Ireland’s detailed merchandise trade data, compare partners and products, and visualise trends with an interactive dashboard.</p>
+        <a class="button-link button-link--light" href="{{ '/dashboard/' | relative_url }}">Explore the monitor <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="tool-feature__graphic" aria-hidden="true"><span class="graph-label">PRODUCTS · PARTNERS · TIME</span><div class="graph-lines"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="graph-baseline">IRL / TRADE / DATA</span></div>
+    </div>
+  </section>
+</main>

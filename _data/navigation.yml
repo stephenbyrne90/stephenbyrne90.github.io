@@ -1,12 +1,9 @@
 main:
   - title: "Home"
     url: /
-
-  - title: "Publications"
+  - title: "Research"
     url: /publications/
-
   - title: "CV"
     url: /cv/
-
   - title: "Trade Monitor"
     url: /dashboard/
