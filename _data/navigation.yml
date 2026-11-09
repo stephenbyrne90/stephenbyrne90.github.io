@@ -9,4 +9,4 @@ main:
     url: /cv/
 
   - title: "Trade Monitor"
-    url: https://dfin-economics.shinyapps.io/irish-trade-monitor/
+    url: /dashboard/
