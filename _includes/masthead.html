@@ -1,13 +1,23 @@
-<header class="masthead" role="banner">
-  <div class="new-masthead">
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Stephen Byrne, home">
-      <span class="brand__mark">SB<span class="brand__dot">.</span></span>
-      <span class="brand__label">Stephen Byrne <small>Economist</small></span>
-    </a>
-    <nav class="new-nav" aria-label="Primary navigation">
-      {% for link in site.data.navigation.main %}
-        <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
-      {% endfor %}
-    </nav>
+{% include base_path %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% for link in site.data.navigation.main %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+              {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
   </div>
-</header>
+</div>

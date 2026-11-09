@@ -1,0 +1,15 @@
+{% assign record = include.paper %}
+<div class="research-meta">
+  {% if record.authors %}<p>{{ record.authors | escape }}</p>{% endif %}
+  <p>{{ record.venue | escape }} · {{ record.date | date: "%Y" }}</p>
+  {% if record.paperurl or record.slidesurl %}
+    <ul class="inline-links">
+      {% if record.paperurl %}
+        <li><a href="{{ record.paperurl | escape }}">{% if record.paperurl contains ".pdf" %}PDF{% else %}Publication record{% endif %}<span class="visually-hidden"> for {{ record.title | escape }}</span></a></li>
+      {% endif %}
+      {% if record.slidesurl %}
+        <li><a href="{{ record.slidesurl | escape }}">Slides<span class="visually-hidden"> for {{ record.title | escape }}</span></a></li>
+      {% endif %}
+    </ul>
+  {% endif %}
+</div>
