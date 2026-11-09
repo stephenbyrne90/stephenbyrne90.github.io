@@ -7,3 +7,6 @@ main:
 
   - title: "CV"
     url: /cv/
+
+  - title: "Trade Monitor"
+    url: https://stephenbyrne-econ.shinyapps.io/irish-trade-monitor/
