@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="{{ site.locale | slice: 0, 2 }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include seo.html %}
+    <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="shell site-header__inner">
+        <a class="site-name" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>{{ site.title | escape }}</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          {% for link in site.data.navigation.main %}
+            {% unless link.url == '/' %}
+              <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+            {% endunless %}
+          {% endfor %}
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="shell{% unless page.url == '/' %} inner-page{% endunless %}" tabindex="-1">
+      {% unless page.url == '/' %}<h1>{{ page.title | escape }}</h1>{% endunless %}
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell site-footer__inner">
+        <p>The views expressed on this website are my own and do not necessarily represent those of the Minister for Finance, the Central Bank of Ireland or the Eurosystem.</p>
+        <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
+      </div>
+    </footer>
+  </body>
+</html>

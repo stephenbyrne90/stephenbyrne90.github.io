@@ -1,0 +1,15 @@
+---
+layout: academic
+---
+{% include research-meta.html paper=page %}
+<div class="paper-text">
+  {{ content }}
+  {% if page.citation %}
+    <details class="paper-citation">
+      <summary>Citation</summary>
+      <p>{{ page.citation | escape }}</p>
+    </details>
+  {% endif %}
+  {% if page.link %}<p><a href="{{ page.link | escape }}">Related link</a></p>{% endif %}
+</div>
+<p class="section-link"><a href="{{ '/publications/' | relative_url }}">All research and publications</a></p>

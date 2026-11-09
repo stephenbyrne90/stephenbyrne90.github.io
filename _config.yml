@@ -259,10 +259,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: research-paper
-      author_profile: false
-      share: false
-      comments: false
+      layout: paper
   # _portfolio
   - scope:
       path: ""
@@ -301,6 +298,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-redirect-from
   - jekyll-sitemap
   - jemoji
 
@@ -309,6 +307,7 @@ whitelist:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-redirect-from
   - jekyll-sitemap
   - jemoji
 

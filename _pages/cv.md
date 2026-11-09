@@ -1,12 +1,8 @@
 ---
-layout: modern
-title: "Curriculum vitae"
-eyebrow: "Background / Experience"
+layout: academic
+title: "CV"
 permalink: /cv/
-author_profile: false
 ---
-
-An economist working across research, forecasting and economic policymaking, with experience in central banking and government.
 
 ## Employment
 
@@ -24,8 +20,8 @@ An economist working across research, forecasting and economic policymaking, wit
 
 ## Research interests
 
-- Empirical macroeconomics and macroeconomic forecasting
-- Monetary and financial economics, including macroprudential policy
+- Applied macroeconomics and macroeconomic forecasting
+- Monetary and financial economics, including macroprudential policy and non-bank financial intermediation
 - Productivity and resource misallocation
 - Labour markets
 
@@ -40,4 +36,4 @@ An economist working across research, forecasting and economic policymaking, wit
 
 R · MATLAB · Stata · SQL
 
-See also [Research and publications](/publications/).
+For research outputs, see [Research and publications]({{ '/publications/' | relative_url }}).

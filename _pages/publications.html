@@ -1,37 +1,18 @@
 ---
-layout: modern
-title: "Research & publications"
-eyebrow: "Research / Selected outputs"
+layout: academic
+title: "Research and publications"
 permalink: /publications/
-author_profile: false
 ---
-<p class="interior__lead">Working papers, journal articles and policy research, with links to the published versions. For a bibliographic record, see <a href="https://ideas.repec.org/e/pby23.html">IDEAS/RePEc</a>.</p>
 
-<nav class="research-jump" aria-label="Publication categories">
-  <a href="#working-papers">Working papers</a>
-  <a href="#journal-articles">Journal articles</a>
-  <a href="#policy-research">Policy research</a>
-</nav>
+<p>See also my publication record on <a href="https://ideas.repec.org/e/pby23.html">IDEAS/RePEc</a>.</p>
 
-{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
-{% assign sections = "working-papers|Working papers,journal-articles|Journal articles,policy-research|Policy research & reports" | split: "," %}
-{% for section in sections %}
-  {% assign parts = section | split: "|" %}
-  <section class="research-section" id="{{ parts[0] }}">
-    <div class="research-section__heading"><h2>{{ parts[1] }}</h2><span class="research-section__index">0{{ forloop.index }}</span></div>
-    {% for post in sorted_publications %}
-      {% if post.category == parts[0] %}
-      <article class="research-entry">
-        <span class="research-entry__year">{{ post.date | date: "%Y" }}</span>
-        <div class="research-entry__content">
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-          {% if post.authors %}<p class="research-entry__authors">{{ post.authors | escape }}</p>{% endif %}
-          <p class="research-entry__venue">{{ post.venue | escape }}</p>
-          {% if post.excerpt %}<p class="research-entry__summary">{{ post.excerpt | escape }}</p>{% endif %}
-          {% if post.paperurl %}<a class="research-entry__link" href="{{ post.paperurl }}">{% if post.paperurl contains '.pdf' %}PDF{% else %}Publication record{% endif %} <span aria-hidden="true">↗</span></a>{% endif %}
-        </div>
-      </article>
-      {% endif %}
+{% assign sorted_publications = site.publications | sort: "date" | reverse %}
+{% for category in site.publication_category %}
+  {% assign papers = sorted_publications | where: "category", category[0] %}
+  <section class="research-group" aria-labelledby="{{ category[0] }}">
+    <h2 id="{{ category[0] }}">{{ category[1].title }}</h2>
+    {% for paper in papers %}
+      {% include research-entry.html paper=paper %}
     {% endfor %}
   </section>
 {% endfor %}

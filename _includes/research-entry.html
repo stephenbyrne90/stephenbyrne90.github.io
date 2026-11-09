@@ -1,0 +1,5 @@
+{% assign paper = include.paper %}
+<article class="research-entry">
+  <h3><a href="{{ paper.url | relative_url }}">{{ paper.title | escape }}</a></h3>
+  {% include research-meta.html paper=paper %}
+</article>
